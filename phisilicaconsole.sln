@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "phisilicaconsole", "phisilicaconsole\phisilicaconsole.csproj", "{CE344DB2-1BB9-4524-9E1C-55FBF089181F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE344DB2-1BB9-4524-9E1C-55FBF089181F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE344DB2-1BB9-4524-9E1C-55FBF089181F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE344DB2-1BB9-4524-9E1C-55FBF089181F}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{CE344DB2-1BB9-4524-9E1C-55FBF089181F}.Debug|ARM64.Build.0 = Debug|ARM64
+		{CE344DB2-1BB9-4524-9E1C-55FBF089181F}.Debug|x64.ActiveCfg = Debug|x64
+		{CE344DB2-1BB9-4524-9E1C-55FBF089181F}.Debug|x64.Build.0 = Debug|x64
+		{CE344DB2-1BB9-4524-9E1C-55FBF089181F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE344DB2-1BB9-4524-9E1C-55FBF089181F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE344DB2-1BB9-4524-9E1C-55FBF089181F}.Release|ARM64.ActiveCfg = Release|ARM64
+		{CE344DB2-1BB9-4524-9E1C-55FBF089181F}.Release|ARM64.Build.0 = Release|ARM64
+		{CE344DB2-1BB9-4524-9E1C-55FBF089181F}.Release|x64.ActiveCfg = Release|x64
+		{CE344DB2-1BB9-4524-9E1C-55FBF089181F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7001FE0A-4CFB-4330-8F09-6E4965346B9A}
+	EndGlobalSection
+EndGlobal
