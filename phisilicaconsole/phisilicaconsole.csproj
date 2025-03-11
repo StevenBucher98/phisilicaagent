@@ -3,15 +3,19 @@
   <PropertyGroup>
 	<OutputType>Library</OutputType>
     <TargetFramework>net8.0-windows10.0.26100.0</TargetFramework>
-
 	<ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Platforms>ARM64</Platforms>
+    <Platforms>AnyCPU</Platforms>
 	<WindowsPackageType>None</WindowsPackageType>
+	<EnableDynamicLoading>true</EnableDynamicLoading>
+	<WindowsAppSdkBootstrapInitialize>true</WindowsAppSdkBootstrapInitialize>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AIShell.Abstraction" Version="1.0.0-preview.1" />
+    <PackageReference Include="AIShell.Abstraction" Version="1.0.0-preview.1">
+		<ExcludeAssets>contentFiles</ExcludeAssets>
+		<PrivateAssets>All</PrivateAssets>
+	</PackageReference>
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.7.250127003-experimental3" />
   </ItemGroup>
 
